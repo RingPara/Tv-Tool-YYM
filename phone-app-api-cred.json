@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "phone-app-360307",
+  "private_key_id": "936cb2d7d28424b8917b8b7bbd5aa64f3bc37fe8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCQzb8bakQ1S02C\ndO5h/AJfSaWN23uaHQCZQ1DRiSXtbK7CSqzuuyu53e02mGBpY00DINedDn/jD7IB\nIF2Iimmlc9Uq9atYiSBuyD6zA3FNV8KyJcuS+bVZKbAXQPTDcBAD+/wK8tmNNhxo\n4xguGpPLSFSlq8nT42OD8tWT2EXFdU18cVjl6qExhrXkWGq+jcEH3qo8oDMXqlzE\nbS3iM6ecACH6jlE9/zgKadyuhidFj6GRFLjNgCyiavvmov6y8dwmF/r1swMH5Rxb\n6Mp5L1wwqzd8387PjiLtytX6tIUTbvmfhrGDJfn6LorsbW51vPF1jRQstVNpcQ/z\ni8pzDXffAgMBAAECggEAApCyhwDN7ofD+sCpjHDTde6vESFHQkarQQvRPbUJR/h5\n7BU4lQ4ZyzQkRKhUZOmObrTBPRYJq/MWOzDgl0+kaXrw1s79VxcuzOedPLyd4Dni\nyBclURg9XzP+25qZ+3BbyEZJg8QjmH3R6QXE4uQzpBFG9pxhefB4TdkacYEOU14m\ny0eurEG3bhTOkwZUbAYWSDrxF3w+dEIFQo1AE+H+QheOSZYDxzQ7SpSH9Ej83QUN\n4peQ2WGPgw+Yba09fl62+kVWKXG64Nnd0k1HyXLRnabCJMw/xQ116B/t3OIv5EcK\n86tuF+SnR8srECCmQiG9GtJvYcDr1qPwWG61uX6HmQKBgQDFw4SsUobMRWx2BNsH\n/1X8b9obPPixskCM++QoW0mqlUbYhW3q4ID3a9dUlAkgCpLidh///NK3gEFFh3DN\nYjCZOVATusXQlYK8igKd9taiUhfLWpufN3q4Qa6q5/Jhy/T1PBviVvPcnB0/cG/H\ncCtcSEOaYWC6oZ61YLso1J8rfQKBgQC7cdGQJQ3n7gjn7kjO7yys7i8LRCfZfD2Y\n+SczlQKnO69H4fyZQJsHVL6Dg3V/nxy9a1a/OKm7jmeQmz65Oqi1ln8K/9tD9WrT\nUxbieygzs7dotCaDibFNqGXRXwpKbPnbN+UErsmPRGQDiUjB+I9TWCpXIlxnfD1M\nmaNk7703iwKBgEEx7Hn2ltOei1v4y9A+H7WhlhBmsEG8VsVjgNrBBW8D2SAmFI9a\nxYlLdug+CSgT9EpN0MzOJxUxZdMrDEfY99Z7a2elqfLSZxAKm0RCDI3kbE2wqB77\n5iv6Ez/qSSBuYWm7ECI0sh3nJUk1otPnqZO5ivfI5F+CSlTW97xFI9ftAoGAHVnH\nLMEAmm6Fanu/XtfIsRNivmrfqohvxMJOxx7wGWuZGLJkMUMSg2Vbp5AwF9m8UFS8\ncpjWyw2TXetROQPcYwK7xecmWE/XeFusW65ZLy9W6sg6t6IZ50UVHGG7ZMgHn7Hy\n5HbSDOLynjMi92yKVMybZKV2vqWPm6z7DtUTVd0CgYEAnq7gutWD3LqJ09vnDeJN\n/ug23T15V0axQpZY/n3N4n/YPWpJQplfUpuEUWZdZk3Ty7IYXMvjHdz0bWbIa8Qh\nzDrKnEYVcgZYdq9xGJInoK3ToOqhPicCUoiHKEiLhHzovyuhC82nglFZYIhhNsxo\n9hWDbJngmS3bto58Wf6degg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "phone-app@phone-app-360307.iam.gserviceaccount.com",
+  "client_id": "113257111872019691850",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/phone-app%40phone-app-360307.iam.gserviceaccount.com"
+}
