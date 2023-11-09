@@ -60,6 +60,47 @@ async function GetYymTv() {
   }
 }
 
+async function Writedatetoexcel(){
+  const auth = new google.auth.GoogleAuth({
+    keyFile: "phone-app-api-cred.json",
+    scopes: "https://www.googleapis.com/auth/spreadsheets",
+  });
+
+  const client = await auth.getClient();
+  const googleSheets = google.sheets({ version: "v4", auth: client });
+  const spreadsheetId = "198ZEmC98mG40vc_NHcUs0M_9uREL68mjk5RAnolQTyw";
+  let date_time = new Date();
+    let date = ("0" + date_time.getDate()).slice(-2);
+    let month = ("0" + (date_time.getMonth() + 1)).slice(-2);
+    let year = date_time.getFullYear();
+    let hours = date_time.getHours();
+    let minutes = date_time.getMinutes();
+    let seconds = date_time.getSeconds();
+    await googleSheets.spreadsheets.values.update({
+      auth,
+      spreadsheetId,
+      valueInputOption: "USER_ENTERED",
+      range: `TV Modelleri Unique!G2`,
+      resource: {
+        values: [
+          [
+            date +
+              "-" +
+              month +
+              "-" +
+              year +
+              " " +
+              hours +
+              ":" +
+              minutes +
+              ":" +
+              seconds,
+          ],
+        ],
+      },
+    });
+}
+
 app.get("/", (req, res) => {
   res.send("TOOLU ÇALIŞTIRMAK İÇİN URL YE /toolcalistir YAZIN!");
 });
@@ -115,4 +156,5 @@ app.get("/toolcalistir", async (req, res) => {
 
     i++;
   }
+  await Writedatetoexcel()
 });
